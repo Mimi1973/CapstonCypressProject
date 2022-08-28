@@ -31,7 +31,7 @@ Cypress.Commands.add('selectProduct',(productName)=>{
 
     if($el.text().includes(productName)){ 
       cy.get(':nth-child(1) > :nth-child(2) > .thumbnail > .btn-ground > form > [type="submit"]').eq(index).click()
-
+      hello 
     }
   })
 })
